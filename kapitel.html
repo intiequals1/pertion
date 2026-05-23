@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapitel – Pertion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .chapter-detail {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3rem;
+      margin-bottom: 2rem;
+      scroll-margin-top: 100px;
+    }
+    .chapter-detail:hover { border-color: var(--accent); }
+    .chapter-header {
+      display: flex; align-items: flex-start; gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .chapter-big-num {
+      font-family: var(--font-serif);
+      font-size: 4rem; font-weight: 700;
+      color: var(--border); line-height: 1;
+      flex-shrink: 0;
+    }
+    .chapter-detail:hover .chapter-big-num { color: var(--accent); }
+    .chapter-detail h2 { font-size: 1.4rem; margin-bottom: .3rem; }
+    .chapter-part {
+      font-size: .75rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: .5rem;
+    }
+    .chapter-body p { color: var(--text-muted); }
+    .chapter-topics {
+      display: flex; flex-wrap: wrap; gap: .6rem;
+      margin-top: 1.2rem;
+    }
+    .topic-pill {
+      font-size: .78rem; padding: .3rem .9rem;
+      border-radius: 20px; background: var(--surface-2);
+      border: 1px solid var(--border); color: var(--text-muted);
+    }
+    .part-divider {
+      margin: 3rem 0 1rem;
+      padding: .8rem 1.5rem;
+      background: var(--surface-2);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .part-divider h3 { font-size: 1rem; color: var(--accent-light); margin: 0; }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Per<span>tion</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#pillars">Konzept</a></li>
+      <li><a href="kapitel.html" class="active">Kapitel</a></li>
+      <li><a href="leseprobe.html">Leseprobe</a></li>
+      <li><a href="glossar.html">Glossar</a></li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+    <button class="nav-toggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <h1>Kapitelübersicht</h1>
+    <p>Neun Kapitel in vier Sphären – von der menschlichen Wahrnehmung bis zur vernetzten Zukunft.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+
+    <div class="part-divider"><h3>Teil I &nbsp;·&nbsp; Die menschliche Sphäre – Wahrnehmung, Psychologie und Ethik</h3></div>
+
+    <div class="chapter-detail" id="kap1">
+      <div class="chapter-header">
+        <div class="chapter-big-num">01</div>
+        <div>
+          <div class="chapter-part">Kapitel 1</div>
+          <h2>Erkenntnis und die Architektur der Wahrnehmung</h2>
+          <span class="chapter-tag tag-philosophy">Philosophie &amp; Kognitionswissenschaft</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Unsere Wahrnehmung ist kein neutraler, fotografischer Prozess. Sie ist ein hochgradig aktiver, konstruktiver und fehleranfälliger Vorgang, gesteuert von evolutionären Heuristiken, kulturellen Prägungen und der Notwendigkeit zur Komplexitätsreduktion. Dieses Kapitel legt das epistemologische Fundament des Buches.</p>
+        <p>Es analysiert den <strong>Confirmation Bias</strong> als eine der mächtigsten kognitiven Verzerrungen, die in der digitalen Welt durch Algorithmen und Filterblasen technologisch massiv verstärkt wird. Es untersucht die Gefahren der <strong>Abstraktion in der Transformation</strong> – den unvermeidlichen Verlust menschlicher Nuancen beim Übersetzen von Realität in Datenmodelle. Schließlich beleuchtet es die <strong>kulturelle Engführung der Urteilsbildung</strong> und ihre Konsequenzen für globale IT-Rollouts.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">Confirmation Bias</span>
+          <span class="topic-pill">Kognitive Dissonanz</span>
+          <span class="topic-pill">Abstraktion</span>
+          <span class="topic-pill">Kulturpsychologie</span>
+          <span class="topic-pill">Predictive Processing</span>
+          <span class="topic-pill">Filterblasen</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter-detail" id="kap2">
+      <div class="chapter-header">
+        <div class="chapter-big-num">02</div>
+        <div>
+          <div class="chapter-part">Kapitel 2</div>
+          <h2>Die Mechanik des Zwischenmenschlichen</h2>
+          <span class="chapter-tag tag-philosophy">Psychologie &amp; Organisationstheorie</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Technologie wird von Menschen für Menschen gemacht. Die psychologischen Dynamiken, die unser Zusammenleben bestimmen, spiegeln sich unweigerlich in den Systemen wider, die wir erschaffen. Dieses Kapitel entschlüsselt die Mechanik des Zwischenmenschlichen als Voraussetzung für ethisches Systemdesign.</p>
+        <p>Es entwickelt eine hierarchische Taxonomie von <strong>Habitus</strong> (Bourdieu), <strong>Charakter</strong> und <strong>Virtuosität</strong> als Werkzeug für die Personalentwicklung. Es analysiert <strong>Reaktanz</strong> als Hauptursache für das Scheitern von IT-Projekten und beleuchtet die Mechanik von <strong>psychologischer Gewalt</strong>, Gaslighting und Privacy-as-a-Weapon in Organisationen.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">Habitus (Bourdieu)</span>
+          <span class="topic-pill">Reaktanz</span>
+          <span class="topic-pill">Gaslighting</span>
+          <span class="topic-pill">Ressentiment (Scheler)</span>
+          <span class="topic-pill">Self-Efficacy</span>
+          <span class="topic-pill">Capabilities</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter-detail" id="kap3">
+      <div class="chapter-header">
+        <div class="chapter-big-num">03</div>
+        <div>
+          <div class="chapter-part">Kapitel 3</div>
+          <h2>Angewandte Ethik als Fundament</h2>
+          <span class="chapter-tag tag-ethics">Moralphilosophie &amp; Angewandte Ethik</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Ethik ist in der digitalen Transformation kein weiches "Nice-to-have", sondern die absolut notwendige harte Infrastruktur. Dieses Kapitel liefert das normative Fundament des gesamten Buches und stellt die Frage: Nach welchen Prinzipien sollen wir handeln?</p>
+        <p>Es präsentiert eine klare <strong>Taxonomie der Moralphilosophie</strong> (Deontologie, Utilitarismus, Tugendethik, Metaethik) und macht diese auf konkrete IT-Entscheidungen anwendbar. Es vertieft den <strong>Capabilities Approach</strong> von Sen und Nussbaum als Maßstab für digitale Autonomie. Das zentrale Paradigma des Kapitels: <strong>Ethik als Infrastruktur</strong>.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">Deontologie (Kant)</span>
+          <span class="topic-pill">Utilitarismus</span>
+          <span class="topic-pill">Tugendethik</span>
+          <span class="topic-pill">Capabilities (Nussbaum)</span>
+          <span class="topic-pill">Ethik als Infrastruktur</span>
+          <span class="topic-pill">Dark Patterns</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-divider"><h3>Teil II &nbsp;·&nbsp; Die System-Sphäre – ERP, Daten und Governance</h3></div>
+
+    <div class="chapter-detail" id="kap4">
+      <div class="chapter-header">
+        <div class="chapter-big-num">04</div>
+        <div>
+          <div class="chapter-part">Kapitel 4</div>
+          <h2>Das Nervensystem der Unternehmen (SAP &amp; ERP)</h2>
+          <span class="chapter-tag tag-tech">SAP / ERP-Praxis</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>ERP-Systeme sind weit mehr als Buchhaltungssoftware. Sie sind das zentrale, digitale Nervensystem moderner Konzerne und kodieren Machtverhältnisse, Hierarchien und Verantwortung. Dieses Kapitel schlägt die Brücke von der Philosophie zur technischen Praxis.</p>
+        <p>Es analysiert die <strong>Anforderungsanalyse und das Blueprinting</strong> als ethischen Akt, beleuchtet die Komplexität von <strong>Abschreibungsbereichen</strong> (HGB, IFRS, Steuer) als parallele Wahrheiten und diskutiert die Rolle von <strong>AP/AR/Accounting und Compliance</strong> in der datengetriebenen Unternehmenssteuerung.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">SAP FI/CO</span>
+          <span class="topic-pill">S/4HANA</span>
+          <span class="topic-pill">Blueprinting</span>
+          <span class="topic-pill">Abschreibungsbereiche</span>
+          <span class="topic-pill">OpenText VIM</span>
+          <span class="topic-pill">Compliance</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter-detail" id="kap5">
+      <div class="chapter-header">
+        <div class="chapter-big-num">05</div>
+        <div>
+          <div class="chapter-part">Kapitel 5</div>
+          <h2>Ethische Schulden in der IT-Infrastruktur</h2>
+          <span class="chapter-tag tag-ethics">Ethik &amp; IT-Governance</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Wenn technische Architektur nicht mit moralischer Sorgfalt gepflegt wird, entstehen nicht nur technische, sondern <strong>ethische Schulden</strong> – die unsichtbaren Zinsen der moralischen Bequemlichkeit. Dieses Kapitel macht dieses Konzept operationalisierbar.</p>
+        <p>Es zeigt, wie fehlerhafte Berechtigungskonzepte in SAP strukturelle Voraussetzungen für Machtmissbrauch schaffen, und erklärt, warum klassische Compliance-Frameworks scheitern. Das Konzept der <strong>CultureSync Compliance</strong> (inspiriert von Heidegger) bietet einen radikalen Gegenentwurf: Compliance, die die authentische Kultur einer Organisation spiegelt.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">Ethical Debt</span>
+          <span class="topic-pill">Technical Debt</span>
+          <span class="topic-pill">Berechtigungskonzepte</span>
+          <span class="topic-pill">CultureSync</span>
+          <span class="topic-pill">Heidegger</span>
+          <span class="topic-pill">DSGVO</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-divider"><h3>Teil III &nbsp;·&nbsp; Die Intelligenz-Sphäre – KI, Automatisierung und Mensch-Maschine-Interaktion</h3></div>
+
+    <div class="chapter-detail" id="kap6">
+      <div class="chapter-header">
+        <div class="chapter-big-num">06</div>
+        <div>
+          <div class="chapter-part">Kapitel 6</div>
+          <h2>KI zwischen Verantwortung und Rechenschaft</h2>
+          <span class="chapter-tag tag-ai">KI-Ethik &amp; Governance</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Wenn KI Entscheidungen trifft, die weitreichende Konsequenzen für Menschen haben – wer steht dann am Ende in der Pflicht? Dieses Kapitel trennt scharf zwischen <strong>Responsibility</strong> (Verantwortung) und <strong>Accountability</strong> (Rechenschaftspflicht) und zeigt, warum das "Accountability Gap" das gefährlichste Phänomen der digitalen Transformation ist.</p>
+        <p>Es stellt das <strong>Distributed Truth and Responsibility System (DTRS)</strong> als postdigitales Governance-Modell vor und analysiert den <strong>EU AI Act</strong> als rechtliche Kodifizierung des Human-in-the-Loop-Prinzips.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">Responsible AI</span>
+          <span class="topic-pill">Accountable AI</span>
+          <span class="topic-pill">DTRS</span>
+          <span class="topic-pill">EU AI Act</span>
+          <span class="topic-pill">Human-in-the-Loop</span>
+          <span class="topic-pill">Automation Bias</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter-detail" id="kap7">
+      <div class="chapter-header">
+        <div class="chapter-big-num">07</div>
+        <div>
+          <div class="chapter-part">Kapitel 7</div>
+          <h2>Neue Paradigmen der Interaktion</h2>
+          <span class="chapter-tag tag-ai">KI &amp; UX-Design</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Wenn KI nicht mehr nur ein Werkzeug, sondern ein kognitiver Partner ist, müssen wir die Interaktion neu denken. Dieses Kapitel stellt zwei radikale Paradigmen vor: <strong>Shared Autonomy</strong> als kooperatives Entscheidungsmodell und <strong>humaBot</strong> als Gegenentwurf zur künstlichen Empathie.</p>
+        <p>Der humaBot – "Human. Not Nice. Just Here." – ist ein Agent, der auf Low Drama und High Realism programmiert ist. Er behandelt Nutzer als mündige Erwachsene. Das Kapitel schließt mit dem Konzept des <strong>sozioaffektiven Alignments</strong>: Systeme, die nicht nur kognitiv, sondern auch sozial und emotional mit menschlichen Werten ausgerichtet sind.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">Shared Autonomy</span>
+          <span class="topic-pill">humaBot</span>
+          <span class="topic-pill">Sozioaffektives Alignment</span>
+          <span class="topic-pill">UX-Design</span>
+          <span class="topic-pill">Mensch-KI-Beziehung</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-divider"><h3>Teil IV &nbsp;·&nbsp; Die Zukunfts-Sphäre – Nachhaltigkeit und Innovation</h3></div>
+
+    <div class="chapter-detail" id="kap8">
+      <div class="chapter-header">
+        <div class="chapter-big-num">08</div>
+        <div>
+          <div class="chapter-part">Kapitel 8</div>
+          <h2>Nachhaltigkeit braucht Ressourcen</h2>
+          <span class="chapter-tag tag-future">ESG &amp; Nachhaltigkeit</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Nachhaltigkeit ist nicht kostenlos. Sie ist keine Eigenschaft, die Systemen automatisch innewohnt, sobald man sie digitalisiert. Dieses Kapitel zerstört die Illusion der kostenlosen Nachhaltigkeit und zeigt, welche Ressourcen – finanziell, menschlich und technologisch – wirklich benötigt werden.</p>
+        <p>Es analysiert die neuen Standards <strong>IFRS S1/S2</strong> und ihre Auswirkungen auf die IT-Infrastruktur, beleuchtet das <strong>ESG-Framework für die Landwirtschaft in SAP</strong> und diskutiert <strong>Green IT</strong> und Software-Effizienz als ökologische Verantwortung.</p>
+        <div class="chapter-topics">
+          <span class="topic-pill">IFRS S1/S2</span>
+          <span class="topic-pill">ESRS</span>
+          <span class="topic-pill">ESG in SAP</span>
+          <span class="topic-pill">Green IT</span>
+          <span class="topic-pill">Triple Bottom Line</span>
+          <span class="topic-pill">Opera Neon</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter-detail" id="kap9">
+      <div class="chapter-header">
+        <div class="chapter-big-num">09</div>
+        <div>
+          <div class="chapter-part">Kapitel 9</div>
+          <h2>Geschäftsideen für eine vernetzte Zukunft</h2>
+          <span class="chapter-tag tag-future">Innovation &amp; Entrepreneurship</span>
+        </div>
+      </div>
+      <div class="chapter-body">
+        <p>Aus der Synthese von Wahrnehmung, Ethik, Technologie und Nachhaltigkeit entstehen konkrete, umsetzbare Geschäftsideen. Das Wissensprojekt <strong>pertion.io</strong> dient als konzeptueller Rahmen für Ideen, die technologische Exzellenz mit sozialem und ökologischem Mehrwert verbinden.</p>
+        <p>Das <strong>Community Waste-to-Value Program (CWVP)</strong> ist ein Konzept, das Abfall in soziales Kapital und Bildung transformieren soll. <strong>DailyEthics4all.io</strong> ist ein konzeptueller Entwurf für ein Lernformat, das den "ethischen Muskel" durch tägliche Mikroszenarien trainiert. Das Kapitel schließt mit dem Leitgedanken des Wissensprojekts pertion.io: <em>Dream it. Text it. Ship it.</em></p>
+        <div class="chapter-topics">
+          <span class="topic-pill">CWVP</span>
+          <span class="topic-pill">DailyEthics4all.io</span>
+          <span class="topic-pill">Kreislaufwirtschaft</span>
+          <span class="topic-pill">Behavioral Economics</span>
+          <span class="topic-pill">Wissensprojekt pertion.io</span>
+          <span class="topic-pill">Konzeptentwicklung</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-logo">Per<span>tion</span></div>
+    <div class="footer-sub">Digitale Wahrnehmung für eine vernetzte Zukunft</div>
+    <div class="footer-links">
+      <a href="index.html">Startseite</a>
+      <a href="kapitel.html">Kapitel</a>
+      <a href="leseprobe.html">Leseprobe</a>
+      <a href="glossar.html">Glossar</a>
+      <a href="autor.html">Autor</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Claudiu Dangulea · pertion.io · Alle Rechte vorbehalten</div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

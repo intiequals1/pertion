@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glossar – Pertion</title>
+  <meta name="description" content="Glossar der wichtigsten Fachbegriffe aus dem Buch Pertion – Digitale Wahrnehmung für eine vernetzte Zukunft von Claudiu Dangulea.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .glossar-intro {
+      max-width: 720px; margin: 0 auto 3rem; text-align: center;
+    }
+    .glossar-intro p { color: var(--text-muted); }
+    .glossar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .glossar-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      display: flex; gap: 1.2rem; align-items: flex-start;
+      transition: border-color 0.3s ease, transform 0.3s ease;
+    }
+    .glossar-card:hover {
+      border-color: var(--accent-light);
+      transform: translateY(-3px);
+    }
+    .glossar-qr {
+      flex-shrink: 0;
+      width: 72px; height: 72px;
+      background: white; border-radius: 6px;
+      padding: 4px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .glossar-qr img { width: 64px; height: 64px; }
+    .glossar-content h3 {
+      font-size: 1rem; color: var(--accent-light);
+      margin-bottom: .4rem;
+    }
+    .glossar-content p {
+      font-size: .85rem; color: var(--text-muted);
+      margin: 0; line-height: 1.65;
+    }
+    .glossar-content .wiki-link {
+      display: inline-block; margin-top: .6rem;
+      font-size: .75rem; color: var(--accent);
+      text-decoration: none;
+    }
+    .glossar-content .wiki-link:hover { color: var(--white); }
+    .glossar-filter {
+      display: flex; flex-wrap: wrap; gap: .6rem;
+      margin-bottom: 2.5rem; justify-content: center;
+    }
+    .filter-btn {
+      padding: .35rem 1rem; border-radius: 20px;
+      border: 1px solid var(--border);
+      background: transparent; color: var(--text-muted);
+      font-size: .8rem; cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--accent); color: var(--white);
+      background: rgba(30,144,255,0.1);
+    }
+    .qr-note {
+      text-align: center; margin-top: 3rem;
+      padding: 1.5rem; background: var(--surface);
+      border: 1px solid var(--border); border-radius: var(--radius);
+      max-width: 600px; margin: 3rem auto 0;
+    }
+    .qr-note p { color: var(--text-muted); font-size: .85rem; margin: 0; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Per<span>tion</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#pillars">Konzept</a></li>
+      <li><a href="kapitel.html">Kapitel</a></li>
+      <li><a href="leseprobe.html">Leseprobe</a></li>
+      <li><a href="glossar.html" class="active">Glossar</a></li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <h1>Glossar</h1>
+    <p>Die wichtigsten Fachbegriffe aus Philosophie, Psychologie, IT und Ethik – mit QR-Codes zu den Wikipedia-Artikeln.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+
+    <div class="glossar-intro">
+      <p>Jede Karte enthält eine präzise Definition sowie einen QR-Code, der Sie direkt zum entsprechenden Wikipedia-Artikel führt. Scannen Sie den Code mit Ihrem Smartphone, um tiefer in das jeweilige Thema einzutauchen.</p>
+    </div>
+
+    <div class="glossar-grid">
+
+      <!-- Confirmation Bias -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Confirmation_Bias.png" alt="QR-Code: Confirmation Bias">
+        </div>
+        <div class="glossar-content">
+          <h3>Confirmation Bias</h3>
+          <p>Die kognitive Neigung, Informationen bevorzugt so zu suchen, zu interpretieren und zu erinnern, dass sie bestehende Überzeugungen bestätigen. Im digitalen Kontext wird dieser Bias durch Algorithmen und Filterblasen technologisch verstärkt.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Best%C3%A4tigungsfehler" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Habitus -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Habitus.png" alt="QR-Code: Habitus">
+        </div>
+        <div class="glossar-content">
+          <h3>Habitus</h3>
+          <p>Ein von Pierre Bourdieu geprägtes Konzept für die unbewusst erworbenen, dauerhaften Dispositionen und Verhaltensmuster einer Person, die durch Sozialisation entstehen und das Wahrnehmen, Denken und Handeln prägen.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Habitus_(Soziologie)" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Kognitive Dissonanz -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Kognitive_Dissonanz.png" alt="QR-Code: Kognitive Dissonanz">
+        </div>
+        <div class="glossar-content">
+          <h3>Kognitive Dissonanz</h3>
+          <p>Ein als unangenehm empfundener psychologischer Spannungszustand, der entsteht, wenn mehrere Kognitionen (Wahrnehmungen, Überzeugungen, Wünsche) nicht miteinander vereinbar sind. Menschen versuchen, diesen Zustand aktiv zu vermeiden.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Kognitive_Dissonanz" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Reaktanz -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Reaktanz.png" alt="QR-Code: Reaktanz">
+        </div>
+        <div class="glossar-content">
+          <h3>Reaktanz</h3>
+          <p>Eine psychologische Abwehrreaktion, die auftritt, wenn eine Person eine Einschränkung ihrer Handlungsfreiheit oder Autonomie wahrnimmt. Im Change Management ist Reaktanz eine der häufigsten Ursachen für das Scheitern von IT-Projekten.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Reaktanz_(Psychologie)" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Gaslighting -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Gaslighting.png" alt="QR-Code: Gaslighting">
+        </div>
+        <div class="glossar-content">
+          <h3>Gaslighting</h3>
+          <p>Eine Form psychologischer Manipulation, bei der das Opfer systematisch in seiner Realitätswahrnehmung verunsichert wird. In digitalen Organisationen kann dies durch selektive Datenpräsentation oder das gezielte Vorenthalten von Informationen geschehen.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Gaslighting" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Ressentiment -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Ressentiment.png" alt="QR-Code: Ressentiment">
+        </div>
+        <div class="glossar-content">
+          <h3>Ressentiment</h3>
+          <p>Nach Max Scheler ein heimlicher Groll, der aus der Unterdrückung von Rachegefühlen, Neid oder Hass entsteht. In Organisationen führt Ressentiment dazu, dass Technologie als Instrument der Kontrolle und Disziplinierung missbraucht wird.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Ressentiment" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Deontologie -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Deontologie.png" alt="QR-Code: Deontologie">
+        </div>
+        <div class="glossar-content">
+          <h3>Deontologie</h3>
+          <p>Eine Klasse ethischer Theorien (Pflichtenethik), die Handlungen unabhängig von ihren Konsequenzen bewertet. Maßgeblich ist, ob die Handlung einer moralischen Pflicht entspricht. Zentral bei Immanuel Kant: der Kategorische Imperativ.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Deontologische_Ethik" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Utilitarismus -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Utilitarismus.png" alt="QR-Code: Utilitarismus">
+        </div>
+        <div class="glossar-content">
+          <h3>Utilitarismus</h3>
+          <p>Eine konsequentialistische Ethik (Bentham, Mill), die Handlungen nach ihren Folgen bewertet. Ziel ist die Maximierung des Gesamtnutzens. Im IT-Projektmanagement ist dies oft die implizite Leitphilosophie bei ROI-Berechnungen.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Utilitarismus" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Tugendethik -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Tugendethik.png" alt="QR-Code: Tugendethik">
+        </div>
+        <div class="glossar-content">
+          <h3>Tugendethik</h3>
+          <p>Eine auf Aristoteles zurückgehende Ethik, die den Charakter und die Haltung des Handelnden in den Mittelpunkt stellt. Im Kontext von KI und Software-Engineering bedeutet dies: Entwickler brauchen nicht nur Regeln, sondern praktische Weisheit (Phronesis).</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Tugendethik" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Capabilities Approach -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Capabilities_Approach.png" alt="QR-Code: Capabilities Approach">
+        </div>
+        <div class="glossar-content">
+          <h3>Capabilities Approach</h3>
+          <p>Ein Ansatz von Amartya Sen und Martha Nussbaum, der den Fokus auf die tatsächlichen Verwirklichungschancen von Menschen legt. Für das IT-Design bedeutet dies: Ein System ist nur dann ethisch, wenn es die realen Handlungsspielräume seiner Nutzer erweitert.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/F%C3%A4higkeitenansatz" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- ERP -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/ERP.png" alt="QR-Code: ERP">
+        </div>
+        <div class="glossar-content">
+          <h3>ERP (Enterprise Resource Planning)</h3>
+          <p>Komplexe Softwarelösungen (wie SAP) zur bereichsübergreifenden Planung, Steuerung und Verwaltung aller Ressourcen eines Unternehmens. ERP-Systeme sind nicht nur technische Werkzeuge, sondern kodieren Machtverhältnisse und Verantwortlichkeiten.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Enterprise-Resource-Planning" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- ESG -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/ESG.png" alt="QR-Code: ESG">
+        </div>
+        <div class="glossar-content">
+          <h3>ESG</h3>
+          <p>Environmental, Social and Governance – ein Framework zur Bewertung der Nachhaltigkeit und ethischen Auswirkungen von Unternehmenspraktiken. Die Standards IFRS S1/S2 verpflichten Unternehmen zur transparenten ESG-Berichterstattung.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Environmental,_Social_and_Governance" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- EU AI Act -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/EU_AI_Act.png" alt="QR-Code: EU AI Act">
+        </div>
+        <div class="glossar-content">
+          <h3>EU AI Act</h3>
+          <p>Das erste umfassende Gesetz zur Regulierung Künstlicher Intelligenz weltweit, verabschiedet von der EU. Es verfolgt einen risikobasierten Ansatz und fordert für Hochrisiko-KI-Systeme zwingend menschliche Aufsicht (Human-in-the-Loop).</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Gesetz_%C3%BCber_k%C3%BCnstliche_Intelligenz" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+      <!-- Fallibilismus -->
+      <div class="glossar-card">
+        <div class="glossar-qr">
+          <img src="assets/qrcodes/Fallibilismus.png" alt="QR-Code: Fallibilismus">
+        </div>
+        <div class="glossar-content">
+          <h3>Fallibilismus</h3>
+          <p>Die erkenntnistheoretische Position, nach der es keine absolute Gewissheit geben kann und alle Überzeugungen – auch wissenschaftliche – prinzipiell fehlbar und revidierbar sind. Grundlage für eine offene, lernende Fehlerkultur in Organisationen.</p>
+          <a class="wiki-link" href="https://de.wikipedia.org/wiki/Fallibilismus" target="_blank">&#8599; Wikipedia</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="qr-note">
+      <p>Alle QR-Codes führen direkt zu den entsprechenden Wikipedia-Artikeln. Scannen Sie den Code mit der Kamera Ihres Smartphones – kein zusätzliches App erforderlich.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-logo">Per<span>tion</span></div>
+    <div class="footer-sub">Digitale Wahrnehmung für eine vernetzte Zukunft</div>
+    <div class="footer-links">
+      <a href="index.html">Startseite</a>
+      <a href="kapitel.html">Kapitel</a>
+      <a href="leseprobe.html">Leseprobe</a>
+      <a href="glossar.html">Glossar</a>
+      <a href="autor.html">Autor</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Claudiu Dangulea &middot; pertion.io &middot; Alle Rechte vorbehalten</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

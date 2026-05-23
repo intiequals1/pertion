@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über den Autor – Pertion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .author-section { max-width: 820px; margin: 0 auto; }
+    .author-header {
+      display: flex; gap: 2.5rem; align-items: flex-start;
+      margin-bottom: 3rem;
+    }
+    .author-avatar-large {
+      width: 140px; height: 140px; border-radius: 50%; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--accent), #0a2540);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 3.5rem; border: 3px solid var(--border);
+    }
+    .author-meta h1 { font-size: 1.8rem; margin-bottom: .3rem; }
+    .author-meta .subtitle { color: var(--accent-light); font-size: 1rem; margin-bottom: 1rem; }
+    .author-tags { display: flex; flex-wrap: wrap; gap: .6rem; }
+    .author-tag {
+      font-size: .78rem; padding: .3rem .8rem;
+      border-radius: 20px; border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .expertise-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.2rem; margin: 2.5rem 0;
+    }
+    .expertise-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.4rem;
+    }
+    .expertise-card h3 { font-size: .95rem; color: var(--accent-light); margin-bottom: .5rem; }
+    .expertise-card p { font-size: .85rem; color: var(--text-muted); margin: 0; }
+    .concept-list { list-style: none; padding: 0; }
+    .concept-list li {
+      padding: .7rem 0; border-bottom: 1px solid var(--border);
+      display: flex; gap: 1rem; align-items: flex-start;
+    }
+    .concept-list li:last-child { border-bottom: none; }
+    .concept-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--accent); flex-shrink: 0; margin-top: .4rem;
+    }
+    .concept-list strong { color: var(--white); display: block; margin-bottom: .2rem; }
+    .concept-list span { color: var(--text-muted); font-size: .85rem; }
+    @media (max-width: 600px) {
+      .author-header { flex-direction: column; align-items: center; text-align: center; }
+      .author-tags { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Per<span>tion</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#pillars">Konzept</a></li>
+      <li><a href="kapitel.html">Kapitel</a></li>
+      <li><a href="leseprobe.html">Leseprobe</a></li>
+      <li><a href="glossar.html">Glossar</a></li>
+      <li><a href="autor.html" class="active">Autor</a></li>
+    </ul>
+    <button class="nav-toggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <h1>Über den Autor</h1>
+    <p>Claudiu Dangulea – an der Schnittstelle von SAP-Beratung, angewandter Ethik und Künstlicher Intelligenz.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="author-section">
+
+      <div class="author-header">
+        <div class="author-avatar-large">&#129489;</div>
+        <div class="author-meta">
+          <h1>Claudiu Dangulea</h1>
+          <p class="subtitle">SAP/ERP-Berater &middot; Wirtschaftsinformatiker &middot; Ethikforscher</p>
+          <div class="author-tags">
+            <span class="author-tag">SAP FI/CO</span>
+            <span class="author-tag">S/4HANA</span>
+            <span class="author-tag">KI-Ethik</span>
+            <span class="author-tag">Moralphilosophie</span>
+            <span class="author-tag">ESG &amp; Nachhaltigkeit</span>
+            <span class="author-tag">Wirtschaftsinformatik</span>
+            <span class="author-tag">pertion.io</span>
+          </div>
+        </div>
+      </div>
+
+      <p>Claudiu Dangulea arbeitet an einer Schnittstelle, die in der zeitgenössischen Literatur kaum besetzt ist: der Verbindung von technischer ERP-Praxis (insbesondere SAP FI/CO und S/4HANA) mit kontinentaler Philosophie, angewandter Ethik und den Governance-Fragen rund um Künstliche Intelligenz. Sein Ansatz lautet: Technologie ist niemals neutral – sie ist die in Code gegossene moralische Infrastruktur einer Organisation.</p>
+
+      <p>Mit tiefer Expertise in der SAP-Beratung (Finanzwesen, Controlling, Business Technology Platform) und einer starken akademischen Verankerung in der Moralphilosophie vereint er zwei Welten, die selten miteinander sprechen. Das Ergebnis ist ein Denkrahmen, der operative IT-Probleme – von der Konfiguration von Berechtigungskonzepten bis zur Einführung von KI-gestützten Entscheidungssystemen – mit philosophischer Tiefe analysiert und löst.</p>
+
+      <h2 style="margin-top:2.5rem;">Fachliche Schwerpunkte</h2>
+
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <h3>SAP &amp; ERP-Beratung</h3>
+          <p>Tiefe Expertise in SAP FI/CO, S/4HANA, BTP, Abschreibungsbereichen, Berechtigungskonzepten und Compliance-Prozessen (AP/AR).</p>
+        </div>
+        <div class="expertise-card">
+          <h3>Angewandte Ethik</h3>
+          <p>Ethik als Infrastruktur digitaler Systeme; Ethical Debt; CultureSync Compliance; Taxonomie der Moralphilosophie.</p>
+        </div>
+        <div class="expertise-card">
+          <h3>KI-Governance</h3>
+          <p>Responsible vs. Accountable AI; EU AI Act; Distributed Truth and Responsibility System (DTRS); Human-in-the-Loop.</p>
+        </div>
+        <div class="expertise-card">
+          <h3>Nachhaltigkeit &amp; ESG</h3>
+          <p>IFRS S1/S2, ESRS, ESG-Frameworks in SAP, Green IT und die ethische Dimension von Nachhaltigkeitsberichterstattung.</p>
+        </div>
+      </div>
+
+      <h2 style="margin-top:2.5rem;">Konzepte &amp; Ideen</h2>
+      <p>Im Rahmen des Wissensprojekts <strong>pertion.io</strong> hat Claudiu Dangulea eine Reihe von Konzepten entwickelt, die technologische Exzellenz mit sozialem und ökologischem Mehrwert verbinden:</p>
+
+      <ul class="concept-list">
+        <li>
+          <div class="concept-dot"></div>
+          <div>
+            <strong>DTRS – Distributed Truth and Responsibility System</strong>
+            <span>Ein postdigitales Governance-Modell, das maschinelle Präzision mit menschlicher Urteilskraft verwebt und das "Accountability Gap" in KI-gestützten Organisationen schließt.</span>
+          </div>
+        </li>
+        <li>
+          <div class="concept-dot"></div>
+          <div>
+            <strong>humaBot – "Human. Not Nice. Just Here."</strong>
+            <span>Ein Gegenentwurf zur künstlichen Empathie in KI-Systemen: Low Drama, High Realism. Authentische Interaktion statt simulierter Freundlichkeit.</span>
+          </div>
+        </li>
+        <li>
+          <div class="concept-dot"></div>
+          <div>
+            <strong>CultureSync Compliance</strong>
+            <span>Ein Ansatz, der Compliance-Anforderungen nicht von außen aufzwingt, sondern in die bestehende kulturelle Logik einer Organisation übersetzt.</span>
+          </div>
+        </li>
+        <li>
+          <div class="concept-dot"></div>
+          <div>
+            <strong>CWVP – Community Waste-to-Value Program</strong>
+            <span>Ein Konzept, das Kreislaufwirtschaft mit sozialem Empowerment verbindet: Abfall wird durch lokale Gemeinschaften in Bildung und kulturelle Teilhabe transformiert.</span>
+          </div>
+        </li>
+        <li>
+          <div class="concept-dot"></div>
+          <div>
+            <strong>DailyEthics4all.io</strong>
+            <span>Ein konzeptueller Entwurf für ein tägliches Ethik-Training: Mikroszenarien und Reflexionsschleifen, um die "moralische Infrastruktur" des Individuums zu stärken.</span>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-logo">Per<span>tion</span></div>
+    <div class="footer-sub">Digitale Wahrnehmung für eine vernetzte Zukunft</div>
+    <div class="footer-links">
+      <a href="index.html">Startseite</a>
+      <a href="kapitel.html">Kapitel</a>
+      <a href="leseprobe.html">Leseprobe</a>
+      <a href="glossar.html">Glossar</a>
+      <a href="autor.html">Autor</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Claudiu Dangulea &middot; pertion.io &middot; Alle Rechte vorbehalten</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
