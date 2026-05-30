@@ -4,6 +4,8 @@
 
 **Autor:** Claudiu Dangulea  
 **Wissensprojekt:** [pertion.io](https://pertion.io)  
+**Jetzt kaufen:** [Amazon KDP – Pertion](https://amzn.eu/d/0fxd5NEx)  
+**ISBN-13:** 979-8198621350 · **ASIN:** B0H36QL5KZ  
 **Lizenz:** Alle Rechte vorbehalten · © 2026 Claudiu Dangulea
 
 ---
@@ -12,7 +14,17 @@
 
 **Pertion** ist ein Sachbuch an der Schnittstelle von kontinentaler Philosophie, SAP/ERP-Praxis und Ethik der Künstlichen Intelligenz. Es schlägt eine Brücke, die in der zeitgenössischen Literatur selten betreten wird: die Verbindung von Erkenntnistheorie und angewandter Ethik mit der harten Realität globaler ERP-Systeme und der rasanten Evolution Künstlicher Intelligenz.
 
-Das Buch umfasst **112.000+ Wörter** (ca. 300 Seiten A5), neun Kapitel in vier thematischen Sphären, ein vollständiges Glossar mit QR-Codes sowie einen verifizierten akademischen Quellenapparat mit 38 Quellen.
+Das Buch umfasst **110 Seiten (A5)**, neun Kapitel in vier thematischen Sphären, ein vollständiges Glossar sowie einen verifizierten akademischen Quellenapparat mit 40 Quellen. Es richtet sich an Fach- und Führungskräfte, Studierende sowie Leserinnen und Leser aus den Bereichen Digitalisierung, ERP, KI, Ethik und Organisationsentwicklung.
+
+> Erschienen am **25. Mai 2026** · Selbstverlag via Amazon KDP · Sprache: Deutsch
+
+---
+
+## Jetzt kaufen
+
+[![Auf Amazon kaufen](https://img.shields.io/badge/Amazon-Jetzt%20kaufen-orange?style=for-the-badge&logo=amazon)](https://amzn.eu/d/0fxd5NEx)
+
+**[https://amzn.eu/d/0fxd5NEx](https://amzn.eu/d/0fxd5NEx)**
 
 ---
 
@@ -64,6 +76,14 @@ pertion/
 
 ---
 
+## Schlusswort
+
+> *Dream it. Text it. Ship it.*
+
+Die digitale Transformation ist kein unabänderliches Schicksal, das über uns hereinbricht. Sie ist ein plastischer Raum, den aktive Wahrnehmung, bewusste Entscheidungen und verantwortungsvoller Code gestalten. Pertion – die Wahrnehmung – steht am Anfang dieses Prozesses.
+
+---
+
 ## Website lokal ausführen
 
 Da es sich um eine statische HTML-Website handelt, kann sie direkt im Browser geöffnet werden:
@@ -91,7 +111,7 @@ Um die Website unter `https://[username].github.io/pertion/` zu veröffentlichen
 
 ## Akademische Quellen
 
-Das Buch stützt sich auf 38 verifizierte akademische Quellen, darunter:
+Das Buch stützt sich auf 40 verifizierte akademische Quellen, darunter:
 
 - Nussbaum, M. C. (2011). *Creating Capabilities*. Harvard University Press.
 - Bourdieu, P. (1987). *Sozialer Sinn*. Suhrkamp.
@@ -100,7 +120,24 @@ Das Buch stützt sich auf 38 verifizierte akademische Quellen, darunter:
 - Europäische Kommission. (2021). *EU AI Act* (Gesetz über künstliche Intelligenz).
 - IFRS Foundation. (2023). *IFRS S1 General Requirements*.
 
-Eine vollständige Liste sowie ein Quellen-Review-Bericht (mit Verifikation der öffentlichen Zugänglichkeit aller Quellen) befinden sich in `Pertion_FINAL_KOMPLETT.md`.
+Eine vollständige Liste befindet sich in `Pertion_FINAL_KOMPLETT.md`.
+
+---
+
+## Bibliografische Angaben
+
+| Feld | Wert |
+|---|---|
+| Titel | Pertion – Digitale Wahrnehmung für eine vernetzte Zukunft |
+| Autor | Claudiu Dangulea |
+| Erscheinungsdatum | 25. Mai 2026 |
+| Verlag | Independently published (Amazon KDP) |
+| Sprache | Deutsch |
+| Seitenanzahl | 110 Seiten |
+| Format | A5 (14,57 × 22,19 cm) |
+| ISBN-13 | 979-8198621350 |
+| ASIN | B0H36QL5KZ |
+| Kauflink | [amzn.eu/d/0fxd5NEx](https://amzn.eu/d/0fxd5NEx) |
 
 ---
 
