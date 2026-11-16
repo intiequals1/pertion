@@ -1,5 +1,17 @@
 # Änderungsprotokoll
 
+## 2026-11-16 – Hinweis „im Aufbau“, Kammerzugehörigkeit im Impressum
+
+### Was geändert wurde
+
+- Alle Seiten: Im fixierten Navigationsbalken steht unter der Navigation der Hinweis „Diese Website ist noch im Aufbau. Inhalte und Funktionen werden laufend ergänzt und verbessert.“, gleichlautend mit dangulea.at. Stile in `assets/css/style.css`; der obere Innenabstand ist dafür erhöht (Startseite 80 → 112 px, Unterseiten 8 → 9,5 rem).
+- `impressum.html`: „Kammer: Mitglied der Wirtschaftskammer Wien“ ergänzt.
+
+### Warum
+
+- Auf Wunsch des Betreibers tragen alle eigenen Websites denselben Hinweis zum Entwicklungsstand. Das macht sichtbar, dass Inhalte und Funktionen sich noch ändern.
+- § 5 Abs. 1 ECG verlangt von Diensteanbietern, die gewerberechtlichen Vorschriften unterliegen, auch die Angabe der Kammer. Aufsichtsbehörde und Rechtsvorschriften standen bereits im Impressum, die Kammer fehlte.
+
 ## 2026-11-16 – Lokale Schriften, Datenschutzerklärung, Datenschutzhinweis
 
 ### Was geändert wurde

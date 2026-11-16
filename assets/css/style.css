@@ -94,7 +94,7 @@ nav {
   display: flex; align-items: center;
   background: linear-gradient(135deg, #0d1b2a 0%, #0a2540 50%, #0d1b2a 100%);
   position: relative; overflow: hidden;
-  padding-top: 80px;
+  padding-top: 112px;
 }
 .hero::before {
   content: '';
@@ -357,7 +357,7 @@ footer {
 
 /* ── Page-specific ── */
 .page-hero {
-  padding: 8rem 0 4rem;
+  padding: 9.5rem 0 4rem;
   background: linear-gradient(180deg, #0a2540 0%, var(--primary) 100%);
   text-align: center;
 }
@@ -386,3 +386,8 @@ footer {
 .privacy-notice-actions button:hover { background: #1873cc; }
 .privacy-notice-actions a:focus-visible, .privacy-notice-actions button:focus-visible { outline: 2px solid var(--accent-light); outline-offset: 3px; }
 @media print { .privacy-notice { display: none; } }
+
+/* ── Hinweis zum Entwicklungsstand (im fixierten Navigationsbalken) ── */
+.site-notice { border-top: 1px solid var(--border); margin-top: .9rem; padding: .45rem 1.5rem 0; font-family: var(--font-sans); font-size: .82rem; line-height: 1.5; color: var(--text-muted); text-align: center; }
+.site-notice p { max-width: 1100px; margin: 0 auto; }
+.site-notice strong { color: var(--accent-light); font-weight: 600; }
