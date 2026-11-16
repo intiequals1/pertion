@@ -170,6 +170,12 @@ Das Buch stützt sich auf 40 verifizierte akademische Quellen, darunter:
 
 ---
 
+## Datenschutz
+
+Die Website setzt keine Cookies und kein Tracking ein. Schriften (Merriweather, Inter) liegen seit 16.11.2026 unter `assets/fonts/` und werden über `assets/css/fonts.css` von der eigenen Domain geladen. `datenschutz.html` enthält die Datenschutzerklärung; `assets/js/main.js` zeigt einen Datenschutzhinweis ohne Einwilligungsabfrage, der nur sein Schließen im localStorage vermerkt (`pertion.datenschutzhinweis.v1`). Änderungen und Gründe stehen in `CHANGELOG.md`.
+
+---
+
 ## Impressum
 
 Offenlegung gemäß § 25 Mediengesetz (Österreich):  
